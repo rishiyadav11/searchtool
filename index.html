@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search your stuff</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://store-images.s-microsoft.com/image/apps.26273.14125414353576360.25e774bc-c46c-479a-8230-201323b3a41e.68d1b6c6-f31b-4952-9a8e-fc3deb2d1db9" type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <main>
+        <div id="left">
+            <h1 id="txt">Distractions Out, Concentration In!</h1>
+            
+            <label for="ytsearch">
+                <img id="ytimg" src="./yt" alt="">
+            </label>
+
+            <form action="https://www.youtube.com/results" id="yt" target="_blank">
+                <input id="ytsearch" type="search" name="search_query" placeholder="search what you want to learn">
+               <i class="srch ri-search-line"></i>
+            </form>
+            
+            <label for="gglsearch">
+                <img id="gglimg" src="./ggle" alt="">
+            </label>
+            <form action="https://www.google.com/search" id="ggl" target="_blank">
+                <input id="gglsearch" type="search" name="q" placeholder="search what you want to learn">
+               <i id="gglsrch" class="srch ri-search-line"></i>
+            </form>
+        </div>
+        <div id="right">
+            <img id="landingimg" src="./DELETE YOUR DISTRICTIONS.png" alt="">
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
